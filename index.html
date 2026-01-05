@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="Gravic AI - 陪伴你度过每一个想放弃的时刻">
+  <meta name="keywords" content="Gravic AI, 数字科技, 深圳科技公司, 陪伴成长">
+  <meta name="author" content="深圳市维度重力数字科技有限公司">
+  <meta property="og:title" content="Gravic AI">
+  <meta property="og:url" content="https://gravic.ai">
+  
+  <title>Gravic AI</title>
+  
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌱</text></svg>">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <script src="https://unpkg.com/lucide@latest"></script>
+  
+  <link rel="stylesheet" href="gravic_optimized_styles.css">
+</head>
+<body>
+  <!-- 导航栏 -->
+  <header class="header" id="header">
+    <nav class="nav">
+      <a href="#hero" class="logo">
+        <img src="mascot.png" alt="Gravic AI" class="logo-img">
+        <div class="logo-text">
+          <span class="logo-name">Gravic AI</span>
+          <span class="logo-tagline">AI · Digital Technology</span>
+        </div>
+      </a>
+      
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#what-we-do" class="nav-link"><span class="cn">我们做什么</span><span class="en">What We Do</span></a></li>
+        <li><a href="#scenarios" class="nav-link"><span class="cn">应用场景</span><span class="en">Scenarios</span></a></li>
+        <li><a href="#about" class="nav-link"><span class="cn">关于我们</span><span class="en">About</span></a></li>
+        <li><a href="#contact" class="nav-link"><span class="cn">联系我们</span><span class="en">Contact</span></a></li>
+      </ul>
+      
+      <button class="menu-btn" id="menuBtn" aria-label="菜单">
+        <i data-lucide="menu" class="menu-icon"></i>
+        <i data-lucide="x" class="close-icon"></i>
+      </button>
+    </nav>
+  </header>
+  
+  <main class="main-container">
+    
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+      <div class="hero-decorations">
+        <svg class="hero-blob blob-1" viewBox="0 0 200 200"><path fill="#E8F4EF" d="M44.7,-76.4C58.8,-69.2,71.8,-59.1,79.6,-45.8C87.4,-32.5,90,-16.3,88.5,-0.9C87,14.5,81.4,29,73.1,42.1C64.8,55.2,53.8,66.9,40.5,74.5C27.2,82.1,11.6,85.6,-3.7,91.3C-19,97,-37.9,104.9,-52.4,98.5C-66.9,92.1,-77,71.4,-83.4,51.1C-89.8,30.8,-92.5,10.9,-90.1,-8.1C-87.7,-27.1,-80.2,-45.2,-68.4,-59.2C-56.6,-73.2,-40.5,-83.1,-24.1,-88.5C-7.7,-93.9,9,-94.8,24.4,-90.1C39.8,-85.4,53.9,-75.1,44.7,-76.4Z" transform="translate(100 100)"/></svg>
+        <svg class="hero-blob blob-2" viewBox="0 0 200 200"><path fill="#C8E6D8" d="M39.9,-65.8C53.3,-60.5,66.8,-52.7,74.8,-41C82.8,-29.3,85.3,-14.7,84.2,-0.6C83.2,13.4,78.6,26.8,71.3,39.1C64,51.4,54,62.6,41.6,69.7C29.2,76.8,14.6,79.8,-0.4,80.5C-15.4,81.2,-30.8,79.6,-44.1,73.2C-57.4,66.8,-68.6,55.6,-75.7,42.1C-82.8,28.6,-85.8,12.8,-84.4,-2.5C-83,-17.8,-77.2,-32.6,-68.2,-45.2C-59.2,-57.8,-47,-68.2,-33.6,-73.5C-20.2,-78.8,-5.6,-79,6.4,-89.1C18.4,-99.2,36.8,-119.2,39.9,-65.8Z" transform="translate(100 100)"/></svg>
+      </div>
+      
+      <div class="hero-content">
+        <div class="hero-text">
+          <div class="hero-badge">
+            <span class="badge-dot"></span>
+            <span>数字科技 · 温暖陪伴</span>
+          </div>
+          
+          <h1 class="hero-title">
+            <span class="cn">当你想放弃的时候</span>
+            <span class="cn">我们陪你再走一步</span>
+          </h1>
+          <p class="hero-subtitle en">When you feel like giving up, we walk with you one more step.</p>
+          
+          <p class="hero-desc cn">
+            学语言、练乐器、健身、养成好习惯……这些需要长期坚持的事，最难熬的不是开始，而是中间那段看不到进步、想放弃的日子。我们用科技创造温暖的陪伴，让你在最想放弃的时刻，感受到被理解、被支持。
+          </p>
+          <p class="hero-desc en">
+            The hardest part isn't starting, it's the middle, when progress feels invisible. We create warm companionship through technology.
+          </p>
+        </div>
+        
+        <div class="hero-visual">
+          <div class="hero-card">
+            <img src="mascot.png" alt="Gravic AI" class="hero-mascot">
+            <div class="hero-card-text">
+              <span class="cn">每一次努力</span>
+              <span class="cn">都值得被看见</span>
+              <span class="en">Every effort deserves to be seen</span>
+            </div>
+            <div class="hero-card-decoration">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <div class="floating-elements">
+            <div class="float-item item-1">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+            </div>
+            <div class="float-item item-2">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+            </div>
+            <div class="float-item item-3">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- What We Do Section -->
+    <section id="what-we-do" class="whatwedo-section">
+      <div class="section-container">
+        <div class="section-header">
+          <div class="section-label">
+            <i data-lucide="sparkles"></i>
+            <span>我们做什么 What We Do</span>
+          </div>
+          <h2 class="section-title cn">让坚持变得不再孤单</h2>
+          <p class="section-subtitle en">Making persistence less lonely.</p>
+          <div class="section-divider"></div>
+        </div>
+        
+        <div class="whatwedo-grid">
+          <div class="whatwedo-card">
+            <div class="whatwedo-icon">
+              <i data-lucide="eye"></i>
+            </div>
+            <div class="whatwedo-content">
+              <h3 class="cn">看见你的状态</h3>
+              <p class="en-title">See Your State</p>
+              <p class="cn">通过AI技术理解你当下的心情和状态，在你疲惫、沮丧或想放弃的时候，给予恰到好处的回应。</p>
+            </div>
+          </div>
+          
+          <div class="whatwedo-card">
+            <div class="whatwedo-icon">
+              <i data-lucide="heart"></i>
+            </div>
+            <div class="whatwedo-content">
+              <h3 class="cn">认可你的努力</h3>
+              <p class="en-title">Recognize Your Effort</p>
+              <p class="cn">不只是冷冰冰的数据记录，而是真正理解每一次坚持背后的付出，让你感受到被看见的温暖。</p>
+            </div>
+          </div>
+          
+          <div class="whatwedo-card">
+            <div class="whatwedo-icon">
+              <i data-lucide="palette"></i>
+            </div>
+            <div class="whatwedo-content">
+              <h3 class="cn">创造美的体验</h3>
+              <p class="en-title">Create Beautiful Experiences</p>
+              <p class="cn">用生成式AI将你的努力转化为独特的艺术作品，让枯燥的坚持变成一种美学享受。</p>
+            </div>
+          </div>
+          
+          <div class="whatwedo-card">
+            <div class="whatwedo-icon">
+              <i data-lucide="users"></i>
+            </div>
+            <div class="whatwedo-content">
+              <h3 class="cn">陪伴的力量</h3>
+              <p class="en-title">Power of Companionship</p>
+              <p class="cn">在那些无人见证的时刻，成为你的"静默伙伴"，让独自奋斗也能感受到支持与陪伴。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Scenarios Section -->
+    <section id="scenarios" class="scenarios-section">
+      <div class="section-container">
+        <div class="section-header">
+          <div class="section-label">
+            <i data-lucide="layout-grid"></i>
+            <span>应用场景 Scenarios</span>
+          </div>
+          <h2 class="section-title cn">我们关注这些时刻</h2>
+          <p class="section-subtitle en">Moments we care about.</p>
+          <div class="section-divider"></div>
+        </div>
+        
+        <div class="scenarios-grid">
+          <!-- 语言学习 -->
+          <div class="scenario-card scenario-learning">
+            <div class="scenario-illustration">
+              <svg viewBox="0 0 160 140" fill="none">
+                <rect x="35" y="30" width="90" height="80" rx="8" fill="#FEFCF8"/>
+                <rect x="40" y="35" width="80" height="70" rx="4" fill="#DBEAFE"/>
+                <text x="80" y="65" text-anchor="middle" fill="#2563EB" font-size="16" font-weight="bold">A</text>
+                <text x="80" y="90" text-anchor="middle" fill="#2563EB" font-size="12">あ</text>
+                <circle cx="125" cy="45" r="12" fill="#C8E6D8"/>
+                <path d="M121 45l4 4 6-6" stroke="#5AA785" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <circle cx="35" cy="100" r="10" fill="#FFE4B5"/>
+                <path d="M32 97l3 3 4-4" stroke="#D97706" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div class="scenario-content">
+              <div class="scenario-tag">
+                <i data-lucide="languages"></i>
+                <span>语言学习</span>
+              </div>
+              <h3 class="cn">法语、日语、英语……</h3>
+              <p class="en">French, Japanese, English...</p>
+              <p class="scenario-desc cn">
+                背单词的第100天，当新鲜感消失，进步变得难以察觉。我们不是严厉的考官，而是一个懂你的语言伙伴，陪你聊天、陪你成长。
+              </p>
+            </div>
+          </div>
+          
+          <!-- 乐器练习 -->
+          <div class="scenario-card scenario-music">
+            <div class="scenario-illustration">
+              <svg viewBox="0 0 160 140" fill="none">
+                <ellipse cx="80" cy="120" rx="50" ry="10" fill="#E8F4EF"/>
+                <rect x="55" y="35" width="50" height="75" rx="6" fill="#2D3436"/>
+                <rect x="60" y="40" width="40" height="25" rx="3" fill="#FEFCF8"/>
+                <rect x="62" y="70" width="8" height="35" rx="2" fill="#FEFCF8"/>
+                <rect x="76" y="70" width="8" height="35" rx="2" fill="#FEFCF8"/>
+                <rect x="90" y="70" width="8" height="35" rx="2" fill="#FEFCF8"/>
+                <rect x="62" y="70" width="8" height="20" rx="2" fill="#3D4451"/>
+                <rect x="76" y="70" width="8" height="20" rx="2" fill="#3D4451"/>
+                <rect x="90" y="70" width="8" height="20" rx="2" fill="#3D4451"/>
+                <circle cx="125" cy="45" r="15" fill="#FEE2E2"/>
+                <path d="M122 40v10M127 40v7" stroke="#DC2626" stroke-width="2" stroke-linecap="round"/>
+                <path d="M119 50c3 3 9 3 12 0" stroke="#DC2626" stroke-width="2" stroke-linecap="round"/>
+                <circle cx="35" cy="55" r="12" fill="#C8E6D8"/>
+                <path d="M32 55l3 3 5-5" stroke="#5AA785" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <div class="scenario-content">
+              <div class="scenario-tag">
+                <i data-lucide="music"></i>
+                <span>乐器练习</span>
+              </div>
+              <h3 class="cn">钢琴、吉他、小提琴……</h3>
+              <p class="en">Piano, Guitar, Violin...</p>
+              <p class="scenario-desc cn">
+                练琴的第60天，手指酸痛，曲子还是弹不流畅。我们把你每天的练习转化为动听的旋律记录，让枯燥的音阶也能变成美妙的旅程。
+              </p>
+            </div>
+          </div>
+          
+          <!-- 运动健身 -->
+          <div class="scenario-card scenario-fitness">
+            <div class="scenario-illustration">
+              <svg viewBox="0 0 160 140" fill="none">
+                <ellipse cx="80" cy="120" rx="50" ry="10" fill="#E8F4EF"/>
+                <circle cx="80" cy="45" r="18" fill="#FFE4B5"/>
+                <circle cx="75" cy="42" r="3" fill="#5D4E37"/>
+                <circle cx="85" cy="42" r="3" fill="#5D4E37"/>
+                <path d="M76 52c2 2 6 2 8 0" stroke="#5D4E37" stroke-width="2" stroke-linecap="round"/>
+                <path d="M80 63v25" stroke="#C8E6D8" stroke-width="15" stroke-linecap="round"/>
+                <path d="M55 75l25 -5" stroke="#C8E6D8" stroke-width="8" stroke-linecap="round"/>
+                <path d="M105 75l-25 -5" stroke="#C8E6D8" stroke-width="8" stroke-linecap="round"/>
+                <rect x="65" y="88" width="12" height="22" rx="4" fill="#9DC8B5"/>
+                <rect x="83" y="88" width="12" height="22" rx="4" fill="#9DC8B5"/>
+                <path d="M120 40l10-15M130 25l5 8M130 25l-3 9" stroke="#FFB6C1" stroke-width="2" stroke-linecap="round"/>
+                <circle cx="40" cy="55" r="8" fill="#D1FAE5"/>
+                <path d="M36 55h8M40 51v8" stroke="#059669" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div class="scenario-content">
+              <div class="scenario-tag">
+                <i data-lucide="dumbbell"></i>
+                <span>运动健身</span>
+              </div>
+              <h3 class="cn">跑步、瑜伽、力量训练……</h3>
+              <p class="en">Running, Yoga, Strength Training...</p>
+              <p class="scenario-desc cn">
+                健身第30天，身体还没有明显变化，只有酸痛和疲惫。我们把你的每一次坚持转化为独特的视觉艺术，让汗水也能变成美的见证。
+              </p>
+            </div>
+          </div>
+          
+          <!-- 独处爱好 -->
+          <div class="scenario-card scenario-hobby">
+            <div class="scenario-illustration">
+              <svg viewBox="0 0 160 140" fill="none">
+                <path d="M20 110c20-5 40-3 60 0s40 5 60 0" stroke="#87CEEB" stroke-width="3" stroke-linecap="round"/>
+                <path d="M25 105c15-3 35-2 55 0s35 3 55 0" stroke="#87CEEB" stroke-width="2" opacity="0.5"/>
+                <circle cx="60" cy="60" r="20" fill="#FFE4B5"/>
+                <circle cx="55" cy="56" r="3" fill="#5D4E37"/>
+                <circle cx="65" cy="56" r="3" fill="#5D4E37"/>
+                <path d="M56 66c2 2 6 2 8 0" stroke="#5D4E37" stroke-width="2" stroke-linecap="round"/>
+                <rect x="57" y="80" width="6" height="30" fill="#C4B5A0"/>
+                <path d="M60 80l40 -25" stroke="#8B7355" stroke-width="3" stroke-linecap="round"/>
+                <path d="M95 58l8-3M103 55v-8" stroke="#5AA785" stroke-width="2" stroke-linecap="round"/>
+                <circle cx="130" cy="40" r="15" fill="#FFB6C1" opacity="0.3"/>
+                <path d="M125 40h10M130 35v10" stroke="#E11D48" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div class="scenario-content">
+              <div class="scenario-tag">
+                <i data-lucide="fish"></i>
+                <span>独处爱好</span>
+              </div>
+              <h3 class="cn">钓鱼、摄影、园艺……</h3>
+              <p class="en">Fishing, Photography, Gardening...</p>
+              <p class="scenario-desc cn">
+                一个人等待的时光，有时会觉得漫长。我们成为你的"静默伙伴"，让独处变成享受，让等待也有人见证。
+              </p>
+            </div>
+          </div>
+          
+          <!-- 日常生活 -->
+          <div class="scenario-card scenario-daily">
+            <div class="scenario-illustration">
+              <svg viewBox="0 0 160 140" fill="none">
+                <rect x="30" y="50" width="100" height="70" rx="8" fill="#E8F4EF"/>
+                <rect x="40" y="60" width="80" height="50" rx="4" fill="#FEFCF8"/>
+                <circle cx="60" cy="85" r="12" fill="#FFB6C1" opacity="0.5"/>
+                <circle cx="100" cy="85" r="12" fill="#87CEEB" opacity="0.5"/>
+                <rect x="55" y="30" width="50" height="25" rx="4" fill="#C8E6D8"/>
+                <path d="M65 42h30M65 48h20" stroke="#5AA785" stroke-width="2" stroke-linecap="round"/>
+                <path d="M45 115l10-10M105 115l10-10" stroke="#9DC8B5" stroke-width="3" stroke-linecap="round"/>
+                <circle cx="140" cy="40" r="10" fill="#FFE4B5"/>
+                <path d="M137 40l3 3 5-5" stroke="#5AA785" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <div class="scenario-content">
+              <div class="scenario-tag">
+                <i data-lucide="home"></i>
+                <span>日常生活</span>
+              </div>
+              <h3 class="cn">家务、整理、习惯养成……</h3>
+              <p class="en">Housework, Organization, Habits...</p>
+              <p class="scenario-desc cn">
+                打扫、收纳、每天喝八杯水……这些"小事"重复久了也会倦怠。我们给这些隐形的努力一个仪式感，让坚持变得有趣。
+              </p>
+            </div>
+          </div>
+          
+          <!-- 老年关怀 -->
+          <div class="scenario-card scenario-elderly">
+            <div class="scenario-illustration">
+              <svg viewBox="0 0 160 140" fill="none">
+                <ellipse cx="80" cy="125" rx="55" ry="12" fill="#E8F4EF"/>
+                <circle cx="60" cy="50" r="22" fill="#E0E0E0"/>
+                <circle cx="54" cy="47" r="3" fill="#5D4E37"/>
+                <circle cx="66" cy="47" r="3" fill="#5D4E37"/>
+                <path d="M56 56c2 2 6 2 8 0" stroke="#5D4E37" stroke-width="2" stroke-linecap="round"/>
+                <path d="M60 72v35" stroke="#C8E6D8" stroke-width="20" stroke-linecap="round"/>
+                <rect x="40" y="107" width="15" height="18" rx="4" fill="#FFE4B5"/>
+                <rect x="65" y="107" width="15" height="18" rx="4" fill="#FFE4B5"/>
+                <path d="M82 80c15-5 25 0 35 10" stroke="#8B4513" stroke-width="4" stroke-linecap="round"/>
+                <circle cx="120" cy="95" r="8" fill="#FF6B6B" opacity="0.3"/>
+                <path d="M116 95h8M120 91v8" stroke="#FF6B6B" stroke-width="2" stroke-linecap="round"/>
+                <circle cx="110" cy="35" r="15" fill="#FFB6C1" opacity="0.4"/>
+                <path d="M105 35l5 5 8-8" stroke="#FF6B6B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <div class="scenario-content">
+              <div class="scenario-tag">
+                <i data-lucide="heart-handshake"></i>
+                <span>老年关怀</span>
+              </div>
+              <h3 class="cn">独居老人的日常陪伴</h3>
+              <p class="en">Elderly Companionship</p>
+              <p class="scenario-desc cn">
+                子女不在身边，很多事情想放弃就放弃了。我们成为温暖的守护者，帮助老人保持独立生活的能力和尊严。
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- About Section -->
+    <section id="about" class="about-section">
+      <div class="section-container">
+        <div class="section-header">
+          <div class="section-label">
+            <i data-lucide="info"></i>
+            <span>关于我们 About</span>
+          </div>
+          <h2 class="section-title cn">我们相信，坚持不应该是孤独的</h2>
+          <p class="section-subtitle en">Persistence shouldn't be lonely.</p>
+          <div class="section-divider"></div>
+        </div>
+        
+        <div class="about-content">
+          <div class="about-main">
+            <div class="about-text-block">
+              <h3 class="cn">为什么很多人半途而废？</h3>
+              <p class="cn">
+                不是因为不够努力，也不是因为目标太难。而是在那些看不到进步的日子里，没有人告诉他们"你做得很好"。当新鲜感消失、成就感还没到来，这段"中间地带"是最容易放弃的时刻。
+              </p>
+              <p class="en">
+                It's not about effort or difficulty. It's about those invisible progress days when no one says "you're doing great."
+              </p>
+            </div>
+            
+            <div class="about-text-block">
+              <h3 class="cn">我们在做什么？</h3>
+              <p class="cn">
+                我们是一家深圳的数字科技公司，专注于用技术创造"被看见"的体验。我们开发的产品能够理解你的状态、认可你的努力、在你最需要的时候给予温暖的回应。不是冷冰冰的打卡提醒，而是真正懂你的陪伴。
+              </p>
+              <p class="en">
+                We're a Shenzhen tech company creating experiences where your efforts are truly seen and appreciated.
+              </p>
+            </div>
+          </div>
+          
+          <div class="about-values">
+            <div class="value-card">
+              <div class="value-icon">
+                <svg viewBox="0 0 48 48" fill="none">
+                  <circle cx="24" cy="24" r="20" fill="#E8F4EF"/>
+                  <path d="M24 14v10l6 6" stroke="#5AA785" stroke-width="3" stroke-linecap="round"/>
+                </svg>
+              </div>
+              <h4 class="cn">理解你的节奏</h4>
+              <p class="cn">每个人的成长速度不同，我们尊重你的步伐</p>
+              <p class="en">Respecting your unique pace</p>
+            </div>
+            
+            <div class="value-card">
+              <div class="value-icon">
+                <svg viewBox="0 0 48 48" fill="none">
+                  <circle cx="24" cy="24" r="20" fill="#E8F4EF"/>
+                  <path d="M16 24l6 6 10-12" stroke="#5AA785" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <h4 class="cn">认可你的努力</h4>
+              <p class="cn">哪怕是很小的进步，也值得被庆祝</p>
+              <p class="en">Every small step deserves celebration</p>
+            </div>
+            
+            <div class="value-card">
+              <div class="value-icon">
+                <svg viewBox="0 0 48 48" fill="none">
+                  <circle cx="24" cy="24" r="20" fill="#E8F4EF"/>
+                  <path d="M24 16v4M24 28h.01M20 20a4 4 0 118 0c0 2-2 3-2 5" stroke="#5AA785" stroke-width="3" stroke-linecap="round"/>
+                </svg>
+              </div>
+              <h4 class="cn">温柔地陪伴</h4>
+              <p class="cn">中断不是失败，随时欢迎你回来</p>
+              <p class="en">Interruption isn't failure</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <div class="section-container">
+        <div class="contact-wrapper">
+          <div class="contact-info-side">
+            <div class="section-label light">
+              <i data-lucide="mail"></i>
+              <span>联系我们 Contact</span>
+            </div>
+            <h2 class="contact-title cn">期待与您相遇</h2>
+            <p class="contact-title en">Looking forward to meeting you.</p>
+            <p class="contact-desc cn">
+              无论是产品咨询、商务合作，还是单纯想聊聊，我们都欢迎。
+            </p>
+            
+            <div class="contact-mascot">
+              <img src="mascot.png" alt="Gravic AI">
+            </div>
+          </div>
+          
+          <div class="contact-cards-side">
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i data-lucide="building-2"></i>
+              </div>
+              <div class="contact-detail">
+                <span class="contact-label">公司名称 Company</span>
+                <span class="contact-value cn">深圳市维度重力数字科技有限公司</span>
+                <span class="contact-value-sub">Shenzhen Dimension Gravity Digital Technology Co., Ltd.</span>
+              </div>
+            </div>
+            
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i data-lucide="map-pin"></i>
+              </div>
+              <div class="contact-detail">
+                <span class="contact-label">公司地址 Address</span>
+                <span class="contact-value cn">深圳市福田区沙头街道天安社区泰然八路18号深圳安华工业区4栋四层（东侧）466Y</span>
+              </div>
+            </div>
+            
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i data-lucide="globe"></i>
+              </div>
+              <div class="contact-detail">
+                <span class="contact-label">官方网站 Website</span>
+                <a href="https://gravic.ai" class="contact-link">gravic.ai</a>
+              </div>
+            </div>
+            
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i data-lucide="mail"></i>
+              </div>
+              <div class="contact-detail">
+                <span class="contact-label">联系邮箱 Email</span>
+                <a href="mailto:contact@gravic.ai" class="contact-link">contact@gravic.ai</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <img src="mascot.png" alt="Gravic AI" class="footer-logo">
+            <div class="footer-brand-info">
+              <span class="footer-brand-name">Gravic AI</span>
+              <span class="footer-brand-tagline">AI · Digital Technology</span>
+            </div>
+          </div>
+          
+          <div class="footer-nav">
+            <a href="#what-we-do">我们做什么</a>
+            <a href="#scenarios">应用场景</a>
+            <a href="#about">关于我们</a>
+            <a href="#contact">联系我们</a>
+          </div>
+        </div>
+        
+        <div class="footer-divider"></div>
+        
+        <div class="footer-bottom">
+          <div class="footer-company">
+            <p class="cn">深圳市维度重力数字科技有限公司</p>
+            <p class="en">Shenzhen Dimension Gravity Digital Technology Co., Ltd.</p>
+          </div>
+          <div class="footer-legal">
+            <p class="footer-uscc">统一社会信用代码: 91440300MAK3PU7F1E</p>
+            <p class="footer-copyright">Copyright © <span class="year">2026</span> Gravic AI. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+  </main>
+  
+  <script src="gravic_optimized_scripts.js"></script>
+</body>
+</html>
